@@ -87,9 +87,8 @@ def search_student():
 
 def main():
     while True:
-        print("\n" + "="*40)
-        print("  STUDENT MARKS MANAGEMENT SYSTEM")
-        print("="*40)
+        print("\nSTUDENT MARKS MANAGEMENT SYSTEM")
+        print()
         print("1. Add student marks")
         print("2. View all marks")
         print("3. Find topper")
@@ -98,7 +97,6 @@ def main():
         print("6. Calculate class average")
         print("7. Search student")
         print("8. Exit")
-        print("="*40)
         
         choice = input("Enter your choice (1-8): ")
         
@@ -117,9 +115,7 @@ def main():
         elif choice == "7":
             search_student()
         elif choice == "8":
-            print("\n" + "="*40)
-            print("Thanks for using Student Marks Calculator!")
-            print("="*40)
+            print("\nThanks for using Student Marks Calculator!")
             break
         else:
             print("\nInvalid input! Please enter a number between 1-8")
